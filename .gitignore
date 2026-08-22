@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.env
+attrition.csv
+attrition_prepared.csv
