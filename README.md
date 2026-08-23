@@ -79,6 +79,9 @@ python -m streamlit run dashboard.py
 
 ```
 
+Locally, the API runs at http://127.0.0.1:8000 and the dashboard at http://localhost:8501. If you're running the dashboard locally against your own local API, update API_URL near the top of dashboard.py back to the localhost address.
+
+
 API's at http://127.0.0.1:8000 (with interactive docs at /docs), dashboard's at http://localhost:8501.
 
 
