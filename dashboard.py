@@ -5,7 +5,7 @@ st.set_page_config(page_title="Attrition Risk Checker", page_icon=":bar_chart:")
 st.title("Employee Attrition Risk Checker")
 st.caption("Enter an employee's details to check their predicted attrition risk.")
 
-API_URL = "http://127.0.0.1:8000/predict"
+API_URL = "https://bigger-attrition-prediction-api-com.onrender.com/predict"
 
 with st.form("employee_form"):
     st.subheader("Employee Details")
